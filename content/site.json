@@ -8,16 +8,16 @@
   },
   "bathStrip": [
     {
-      "image": "images/bathroom-suite-1.jpg",
-      "alt": "Casa de banho em travertino terracota"
+      "image": "/images/room-classic-1.jpg",
+      "alt": "Espaço de trabalho nos quartos"
     },
     {
-      "image": "images/bathroom-marble-1.jpg",
-      "alt": "Casa de banho em mármore claro com bambu"
+      "image": "/images/casa-da-penha-25-.jpg",
+      "alt": "Repouso com charme no Estoril"
     },
     {
-      "image": "images/bathroom-modern.jpg",
-      "alt": "Casa de banho com duche e ripado de madeira"
+      "image": "/images/room-bamboo-1.jpg",
+      "alt": "Área de apoio a pequeno almoço."
     }
   ],
   "intro": {
