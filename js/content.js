@@ -171,5 +171,6 @@
     const rooms = results[1];
     if (site) renderSite(site);
     if (rooms) renderRooms(rooms);
+    if (window.initGalleries) window.initGalleries();
   });
 })();

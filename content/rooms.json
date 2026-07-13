@@ -2,7 +2,7 @@
   "rooms": [
     {
       "title": "Quarto Coral",
-      "caption": "Parede em tom terracota suave, molduras douradas e uma luz quente ao entardecer.",
+      "caption": "Parede em tom terracota suave e luz quente ao entardecer — com closet equipado, casa de banho cuidada ao detalhe e uma secretária pronta para dias de trabalho.",
       "reverse": false,
       "images": [
         { "image": "images/room-coral-1.jpg", "alt": "Quarto Coral, cabeceira e candeeiros dourados" },
@@ -12,7 +12,7 @@
     },
     {
       "title": "Quarto Bamboo",
-      "caption": "Verde-sálvia e cortinas de linho, com luz natural que entra pela varanda.",
+      "caption": "Verde-sálvia e cortinas de linho, com luz natural a entrar pela varanda — casa de banho bem equipada e secretária de apoio. As camas twin juntam-se, formando uma cama de casal king-size.",
       "reverse": true,
       "images": [
         { "image": "images/room-bamboo-2.jpg", "alt": "Quarto Bamboo, camas gémeas com almofadas tropicais" },
