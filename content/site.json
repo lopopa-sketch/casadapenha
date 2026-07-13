@@ -34,6 +34,84 @@
     "title": "Cada quarto, um ambiente próprio",
     "lede": "Tons terracota, verde-bambu e branco cal — cada espaço da casa foi pensado com o mesmo cuidado e a mesma paleta serena."
   },
+  "amenities": {
+    "eyebrow": "COMODIDADES",
+    "title": "Tudo o que precisa, ao pormenor",
+    "lede": "Cada quarto e cada espaço da casa foram equipados a pensar no conforto e na praticidade da sua estadia.",
+    "categories": [
+      {
+        "title": "Quarto",
+        "items": [
+          "Cama king size ou queen size de boa qualidade",
+          "Colchão confortável",
+          "Roupa de cama em algodão de elevada gramagem",
+          "Cortinas e estores",
+          "Ar condicionado",
+          "Bom isolamento acústico",
+          "Tomadas junto à cama",
+          "Secretária para trabalho",
+          "Wi-Fi rápido e estável",
+          "Smart TV",
+          "Cofre digital",
+          "Fechadura eletrónica ou acesso sem chave"
+        ],
+        "footnote": ""
+      },
+      {
+        "title": "Casa de Banho",
+        "items": [
+          "Casa de banho privativa",
+          "Toalhas grandes, de rosto e de mãos",
+          "Roupões",
+          "Chinelos descartáveis ou laváveis",
+          "Secador de cabelo potente",
+          "Duche amplo",
+          "Champô, condicionador, gel de banho e sabonete, marca Nuxe",
+          "Touca de banho",
+          "Kit dentário",
+          "Kit de barbear",
+          "Cotonetes, discos de algodão e lenços",
+          "Papel higiénico"
+        ],
+        "footnote": "* Acessórios ao check-in, sem reposição"
+      },
+      {
+        "title": "Kitchenette equipada com",
+        "items": [
+          "Liquidificadora",
+          "Sumo de laranja",
+          "Máquina de café",
+          "Frigorífico com congelador",
+          "Chaleira",
+          "Torradeira",
+          "Loiças",
+          "Talheres e utensílios",
+          "Aspirador",
+          "Ferro a vapor vertical",
+          "Micro-ondas"
+        ],
+        "footnote": "Sem possibilidade de cozinhar — a kitchenette serve de apoio a refeições rápidas e pré-preparadas."
+      },
+      {
+        "title": "Funcionalidade",
+        "items": [
+          "Roupeiro com espaço suficiente",
+          "Cabides de madeira",
+          "Toalhas de praia — 2x por pessoa (1 de praia e 1 de piscina)"
+        ],
+        "footnote": ""
+      },
+      {
+        "title": "Serviço e Apresentação",
+        "items": [
+          "Mudança de roupa de cama, casa de banho e toalhas de piscina só para estadias prolongadas (a cada 4 dias)",
+          "Recomendações locais",
+          "Check-in autónomo a partir das 16h"
+        ],
+        "footnote": ""
+      }
+    ]
+  },
   "garden": {
     "eyebrow": "JARDIM",
     "title": "Um jardim para viver ao ar livre",

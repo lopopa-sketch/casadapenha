@@ -79,6 +79,31 @@
       }
     }
 
+    // Amenities
+    if (data.amenities) {
+      const head = document.getElementById('amenitiesSectionHead');
+      if (head) {
+        head.innerHTML =
+          '<span class="eyebrow">' + esc(data.amenities.eyebrow) + '</span>' +
+          '<h2>' + esc(data.amenities.title) + '</h2>' +
+          '<p class="section-lede">' + esc(data.amenities.lede) + '</p>';
+      }
+      const grid = document.getElementById('amenitiesGrid');
+      if (grid && Array.isArray(data.amenities.categories)) {
+        grid.innerHTML = data.amenities.categories.map(function (cat) {
+          const items = (cat.items || []).map(function (item) {
+            return '<li>' + esc(item) + '</li>';
+          }).join('');
+          const footnote = cat.footnote ? '<p class="amenity-note">' + esc(cat.footnote) + '</p>' : '';
+          return '<div class="amenity-card">' +
+            '<h3>' + esc(cat.title) + '</h3>' +
+            '<ul>' + items + '</ul>' +
+            footnote +
+          '</div>';
+        }).join('');
+      }
+    }
+
     // Garden
     if (data.garden) {
       const bg = document.getElementById('gardenBg');

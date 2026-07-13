@@ -60,6 +60,25 @@ collections:
               - { label: "Fotografia", name: "image", widget: image }
               - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
 
+          - label: "Comodidades"
+            name: "amenities"
+            widget: object
+            fields:
+              - { label: "Texto pequeno", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto introdutório", name: "lede", widget: text }
+              - label: "Categorias"
+                name: "categories"
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Nome da categoria", name: "title", widget: string }
+                  - label: "Itens"
+                    name: "items"
+                    widget: list
+                    field: { label: "Item", name: "item", widget: string }
+                  - { label: "Nota de rodapé (opcional)", name: "footnote", widget: string, required: false }
+
           - label: "Jardim & Espaços Exteriores"
             name: "garden"
             widget: object
