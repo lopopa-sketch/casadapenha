@@ -44,16 +44,16 @@
       "reverse": false,
       "images": [
         {
-          "image": "/images/hallway-detail.jpg",
-          "alt": "Hall de entrada com elementos tradicionais"
+          "image": "/images/closet-detail.jpg",
+          "alt": "O clássico e o contemporâneo."
         },
         {
           "image": "/images/kitchen-1.jpg",
           "alt": "Kitchnette de apoio a refeições. Não permite cozinhar."
         },
         {
-          "image": "/images/closet-detail.jpg",
-          "alt": "O clássico e o contemporâneo."
+          "image": "/images/hallway-detail.jpg",
+          "alt": "Hall de entrada com elementos tradicionais"
         }
       ]
     }
