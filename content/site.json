@@ -12,7 +12,7 @@
       "alt": "Espaço de trabalho nos quartos"
     },
     {
-      "image": "/images/casa-da-penha-25-.jpg",
+      "image": "/images/garden-wide.jpg",
       "alt": "Repouso com charme no Estoril"
     },
     {
@@ -41,11 +41,11 @@
     "bgImage": "images/garden-wide.jpg",
     "gallery": [
       {
-        "image": "images/garden-loungers.jpg",
+        "image": "/images/a_bright_sunny_outdoor_backyard_scene_with_a_clea_1.jpg",
         "alt": "Espreguiçadeiras no jardim, à sombra das árvores"
       },
       {
-        "image": "images/garden-path.jpg",
+        "image": "/images/hero.jpg",
         "alt": "Caminho de calçada junto à fachada da casa"
       }
     ]
