@@ -1,0 +1,147 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "pt"
+
+collections:
+  - name: "site"
+    label: "Textos e Fotos do Site"
+    files:
+      - file: "content/site.json"
+        label: "Conteúdo Geral"
+        name: "site"
+        fields:
+          - label: "Capa (Hero)"
+            name: "hero"
+            widget: object
+            fields:
+              - { label: "Texto pequeno", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Subtítulo", name: "subtitle", widget: string }
+              - { label: "Fotografia de fundo", name: "image", widget: image }
+
+          - label: "Secção 'A Casa'"
+            name: "intro"
+            widget: object
+            fields:
+              - { label: "Texto pequeno", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: string, hint: "Use uma quebra de linha para dividir em duas linhas." }
+              - label: "Parágrafos"
+                name: "paragraphs"
+                widget: list
+                field: { label: "Parágrafo", name: "text", widget: text }
+              - { label: "Fotografia", name: "image", widget: image }
+
+          - label: "Tira de fotografias (3 fotos, abaixo de 'A Casa')"
+            name: "strip"
+            widget: list
+            summary: "{{fields.alt}}"
+            field:
+              widget: object
+              fields:
+                - { label: "Fotografia", name: "image", widget: image }
+                - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
+
+          - label: "Introdução aos Quartos"
+            name: "roomsIntro"
+            widget: object
+            fields:
+              - { label: "Texto pequeno", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto introdutório", name: "lede", widget: text }
+
+          - label: "Tira de Casas de Banho (3 fotos)"
+            name: "bathStrip"
+            widget: list
+            summary: "{{fields.alt}}"
+            field:
+              widget: object
+              fields:
+                - { label: "Fotografia", name: "image", widget: image }
+                - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
+
+          - label: "Jardim & Espaços Exteriores"
+            name: "garden"
+            widget: object
+            fields:
+              - { label: "Texto pequeno", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto", name: "text", widget: text }
+              - { label: "Fotografia de fundo (topo da secção)", name: "bgImage", widget: image }
+              - label: "Galeria de fotos exteriores (jardim, piscina, deck...)"
+                name: "gallery"
+                widget: list
+                summary: "{{fields.alt}}"
+                field:
+                  widget: object
+                  fields:
+                    - { label: "Fotografia", name: "image", widget: image }
+                    - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
+
+          - label: "Localização"
+            name: "location"
+            widget: object
+            fields:
+              - { label: "Texto pequeno", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - label: "Parágrafos"
+                name: "paragraphs"
+                widget: list
+                field: { label: "Parágrafo", name: "text", widget: text }
+              - label: "Pontos de interesse próximos"
+                name: "points"
+                widget: list
+                summary: "{{fields.name}} — {{fields.dist}}"
+                field:
+                  widget: object
+                  fields:
+                    - { label: "Nome do local", name: "name", widget: string }
+                    - { label: "Distância", name: "dist", widget: string }
+                    - { label: "Destacar (cor terracota)", name: "highlight", widget: boolean, default: false }
+
+          - label: "Contacto"
+            name: "contact"
+            widget: object
+            fields:
+              - { label: "Texto pequeno", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto", name: "text", widget: text }
+              - { label: "Texto do link", name: "linkText", widget: string }
+              - { label: "URL do link", name: "linkUrl", widget: string }
+
+          - label: "Rodapé"
+            name: "footer"
+            widget: object
+            fields:
+              - { label: "Localização", name: "location", widget: string }
+
+  - name: "rooms"
+    label: "Quartos"
+    files:
+      - file: "content/rooms.json"
+        label: "Lista de Quartos"
+        name: "roomsFile"
+        fields:
+          - label: "Quartos"
+            name: "rooms"
+            widget: list
+            summary: "{{fields.title}}"
+            field:
+              widget: object
+              fields:
+                - { label: "Nome do quarto", name: "title", widget: string }
+                - { label: "Descrição", name: "caption", widget: text }
+                - { label: "Inverter layout (fotos à direita)", name: "reverse", widget: boolean, default: false }
+                - label: "Fotografias (idealmente 3, a primeira fica em destaque)"
+                  name: "images"
+                  widget: list
+                  summary: "{{fields.alt}}"
+                  field:
+                    widget: object
+                    fields:
+                      - { label: "Fotografia", name: "image", widget: image }
+                      - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
