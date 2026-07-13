@@ -40,11 +40,9 @@ collections:
             name: "strip"
             widget: list
             summary: "{{fields.alt}}"
-            field:
-              widget: object
-              fields:
-                - { label: "Fotografia", name: "image", widget: image }
-                - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
+            fields:
+              - { label: "Fotografia", name: "image", widget: image }
+              - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
 
           - label: "Introdução aos Quartos"
             name: "roomsIntro"
@@ -58,11 +56,9 @@ collections:
             name: "bathStrip"
             widget: list
             summary: "{{fields.alt}}"
-            field:
-              widget: object
-              fields:
-                - { label: "Fotografia", name: "image", widget: image }
-                - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
+            fields:
+              - { label: "Fotografia", name: "image", widget: image }
+              - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
 
           - label: "Jardim & Espaços Exteriores"
             name: "garden"
@@ -76,11 +72,9 @@ collections:
                 name: "gallery"
                 widget: list
                 summary: "{{fields.alt}}"
-                field:
-                  widget: object
-                  fields:
-                    - { label: "Fotografia", name: "image", widget: image }
-                    - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
+                fields:
+                  - { label: "Fotografia", name: "image", widget: image }
+                  - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
 
           - label: "Localização"
             name: "location"
@@ -96,12 +90,10 @@ collections:
                 name: "points"
                 widget: list
                 summary: "{{fields.name}} — {{fields.dist}}"
-                field:
-                  widget: object
-                  fields:
-                    - { label: "Nome do local", name: "name", widget: string }
-                    - { label: "Distância", name: "dist", widget: string }
-                    - { label: "Destacar (cor terracota)", name: "highlight", widget: boolean, default: false }
+                fields:
+                  - { label: "Nome do local", name: "name", widget: string }
+                  - { label: "Distância", name: "dist", widget: string }
+                  - { label: "Destacar (cor terracota)", name: "highlight", widget: boolean, default: false }
 
           - label: "Contacto"
             name: "contact"
@@ -130,18 +122,14 @@ collections:
             name: "rooms"
             widget: list
             summary: "{{fields.title}}"
-            field:
-              widget: object
-              fields:
-                - { label: "Nome do quarto", name: "title", widget: string }
-                - { label: "Descrição", name: "caption", widget: text }
-                - { label: "Inverter layout (fotos à direita)", name: "reverse", widget: boolean, default: false }
-                - label: "Fotografias (idealmente 3, a primeira fica em destaque)"
-                  name: "images"
-                  widget: list
-                  summary: "{{fields.alt}}"
-                  field:
-                    widget: object
-                    fields:
-                      - { label: "Fotografia", name: "image", widget: image }
-                      - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
+            fields:
+              - { label: "Nome do quarto", name: "title", widget: string }
+              - { label: "Descrição", name: "caption", widget: text }
+              - { label: "Inverter layout (fotos à direita)", name: "reverse", widget: boolean, default: false }
+              - label: "Fotografias (idealmente 3, a primeira fica em destaque)"
+                name: "images"
+                widget: list
+                summary: "{{fields.alt}}"
+                fields:
+                  - { label: "Fotografia", name: "image", widget: image }
+                  - { label: "Descrição (texto alternativo)", name: "alt", widget: string }
