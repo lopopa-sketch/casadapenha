@@ -1,10 +1,25 @@
 {
-  "hero": {
-    "eyebrow": "ESTORIL · PORTUGAL",
-    "title": "Casa da Penha",
-    "subtitle": "Uma casa portuguesa no coração do Estoril",
-    "image": "images/hero.jpg"
+  "contact": {
+    "eyebrow": "CONTACTO",
+    "title": "Viva o Estoril na Casa da Penha",
+    "text": "Para disponibilidade e reservas, entre em contacto connosco.",
+    "linkText": "casadapenha.pt",
+    "linkUrl": "https://casadapenha.pt"
   },
+  "bathStrip": [
+    {
+      "image": "/images/room-classic-1.jpg",
+      "alt": "Espaço de trabalho nos quartos"
+    },
+    {
+      "image": "/images/garden-wide.jpg",
+      "alt": "Repouso com charme no Estoril"
+    },
+    {
+      "image": "/images/room-bamboo-1.jpg",
+      "alt": "Área de apoio a pequeno almoço."
+    }
+  ],
   "intro": {
     "eyebrow": "A CASA",
     "title": "Uma casa com identidade,\nno centro do Estoril",
@@ -14,29 +29,25 @@
     ],
     "image": "images/intro.jpg"
   },
-  "strip": [
-    { "image": "images/facade.jpg", "alt": "Fachada terracota da Casa da Penha" },
-    { "image": "images/living-hall.jpg", "alt": "Corredor com arco e copa em madeira" },
-    { "image": "images/bathroom-suite-1.jpg", "alt": "Casa de banho em travertino terracota" }
-  ],
   "roomsIntro": {
     "eyebrow": "QUARTOS & ESPAÇOS",
     "title": "Cada quarto, um ambiente próprio",
     "lede": "Tons terracota, verde-bambu e branco cal — cada espaço da casa foi pensado com o mesmo cuidado e a mesma paleta serena."
   },
-  "bathStrip": [
-    { "image": "images/bathroom-suite-1.jpg", "alt": "Casa de banho em travertino terracota" },
-    { "image": "images/bathroom-marble-1.jpg", "alt": "Casa de banho em mármore claro com bambu" },
-    { "image": "images/bathroom-modern.jpg", "alt": "Casa de banho com duche e ripado de madeira" }
-  ],
   "garden": {
     "eyebrow": "JARDIM",
     "title": "Um jardim para viver ao ar livre",
     "text": "Relva, pinheiros, oleandros e um deck de madeira para refeições ao ar livre — o jardim da Casa da Penha é um convite a abrandar, entre o verde e a luz do Estoril.",
     "bgImage": "images/garden-wide.jpg",
     "gallery": [
-      { "image": "images/garden-loungers.jpg", "alt": "Espreguiçadeiras no jardim, à sombra das árvores" },
-      { "image": "images/garden-path.jpg", "alt": "Caminho de calçada junto à fachada da casa" }
+      {
+        "image": "/images/a_bright_sunny_outdoor_backyard_scene_with_a_clea_1.jpg",
+        "alt": "Espreguiçadeiras no jardim, à sombra das árvores"
+      },
+      {
+        "image": "/images/hero.jpg",
+        "alt": "Caminho de calçada junto à fachada da casa"
+      }
     ]
   },
   "location": {
@@ -48,25 +59,82 @@
       "A região é também conhecida pela sua forte tradição desportiva: campos de golfe, clubes de ténis, a Marina de Cascais e o Autódromo do Estoril tornam esta zona particularmente interessante para quem valoriza desporto e lazer."
     ],
     "points": [
-      { "name": "Casino Estoril e Jardins", "dist": "400 m", "highlight": false },
-      { "name": "Centro de Congressos do Estoril", "dist": "500 m", "highlight": false },
-      { "name": "Estação de Comboios do Estoril", "dist": "650 m", "highlight": false },
-      { "name": "Praia do Tamariz", "dist": "750 m", "highlight": false },
-      { "name": "Paredão Estoril–Cascais", "dist": "750 m", "highlight": false },
-      { "name": "Restaurantes, cafés e comércio local", "dist": "300–800 m", "highlight": false },
-      { "name": "Clube de Ténis do Estoril", "dist": "1 km · a pé", "highlight": true },
-      { "name": "Golfe do Estoril", "dist": "2 km · a pé", "highlight": true },
-      { "name": "Centro de Cascais", "dist": "3 km", "highlight": false },
-      { "name": "Marina de Cascais", "dist": "4 km", "highlight": false },
-      { "name": "Autódromo do Estoril", "dist": "7 km", "highlight": false }
+      {
+        "name": "Casino Estoril e Jardins",
+        "dist": "400 m",
+        "highlight": false
+      },
+      {
+        "name": "Centro de Congressos do Estoril",
+        "dist": "500 m",
+        "highlight": false
+      },
+      {
+        "name": "Estação de Comboios do Estoril",
+        "dist": "650 m",
+        "highlight": false
+      },
+      {
+        "name": "Praia do Tamariz",
+        "dist": "750 m",
+        "highlight": false
+      },
+      {
+        "name": "Paredão Estoril–Cascais",
+        "dist": "750 m",
+        "highlight": false
+      },
+      {
+        "name": "Restaurantes, cafés e comércio local",
+        "dist": "300–800 m",
+        "highlight": false
+      },
+      {
+        "name": "Clube de Ténis do Estoril",
+        "dist": "1 km · a pé",
+        "highlight": true
+      },
+      {
+        "name": "Golfe do Estoril",
+        "dist": "2 km · a pé",
+        "highlight": true
+      },
+      {
+        "name": "Centro de Cascais",
+        "dist": "3 km",
+        "highlight": false
+      },
+      {
+        "name": "Marina de Cascais",
+        "dist": "4 km",
+        "highlight": false
+      },
+      {
+        "name": "Autódromo do Estoril",
+        "dist": "7 km",
+        "highlight": false
+      }
     ]
   },
-  "contact": {
-    "eyebrow": "CONTACTO",
-    "title": "Viva o Estoril na Casa da Penha",
-    "text": "Para disponibilidade e reservas, entre em contacto connosco.",
-    "linkText": "casadapenha.pt",
-    "linkUrl": "https://casadapenha.pt"
+  "strip": [
+    {
+      "image": "/images/a_bright_sunny_outdoor_backyard_scene_with_a_clea_1.jpg",
+      "alt": "Fachada terracota da Casa da Penha"
+    },
+    {
+      "image": "images/living-hall.jpg",
+      "alt": "Corredor com arco e copa em madeira"
+    },
+    {
+      "image": "/images/casa-da-penha-15-.jpg",
+      "alt": "Casa de banho em travertino terracota"
+    }
+  ],
+  "hero": {
+    "eyebrow": "ESTORIL · PORTUGAL",
+    "title": "Casa da Penha",
+    "subtitle": "Uma casa portuguesa no coração do Estoril",
+    "image": "images/hero.jpg"
   },
   "footer": {
     "location": "Estoril · Linha de Cascais · Portugal"

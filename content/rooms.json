@@ -5,9 +5,18 @@
       "caption": "Parede em tom terracota suave e luz quente ao entardecer — com closet equipado, casa de banho cuidada ao detalhe e uma secretária pronta para dias de trabalho.",
       "reverse": false,
       "images": [
-        { "image": "images/room-coral-1.jpg", "alt": "Quarto Coral, cabeceira e candeeiros dourados" },
-        { "image": "images/room-coral-3.jpg", "alt": "Quarto Coral, cama de casal e espelho" },
-        { "image": "images/room-coral-2.jpg", "alt": "Quarto Coral, nicho com livros" }
+        {
+          "image": "images/room-coral-3.jpg",
+          "alt": "Quarto Coral, cama de casal e espelho"
+        },
+        {
+          "image": "/images/casa-da-penha-3-.jpg",
+          "alt": "Quarto Coral, cabeceira e candeeiros dourados"
+        },
+        {
+          "image": "/images/bathroom-suite-1.jpg",
+          "alt": "Quarto Coral, nicho com livros"
+        }
       ]
     },
     {
@@ -15,19 +24,37 @@
       "caption": "Verde-sálvia e cortinas de linho, com luz natural a entrar pela varanda — casa de banho bem equipada e secretária de apoio. As camas twin juntam-se, formando uma cama de casal king-size.",
       "reverse": true,
       "images": [
-        { "image": "images/room-bamboo-2.jpg", "alt": "Quarto Bamboo, camas gémeas com almofadas tropicais" },
-        { "image": "images/room-bamboo-1.jpg", "alt": "Quarto Bamboo, entrada com espelho de madeira" },
-        { "image": "images/room-bamboo-3.jpg", "alt": "Quarto Bamboo, vista para a varanda" }
+        {
+          "image": "images/room-bamboo-2.jpg",
+          "alt": "Quarto Bamboo, camas gémeas com almofadas tropicais"
+        },
+        {
+          "image": "/images/casa-da-penha-9-.jpg",
+          "alt": "Quarto Bamboo, entrada com espelho de madeira"
+        },
+        {
+          "image": "images/room-bamboo-3.jpg",
+          "alt": "Quarto Bamboo, vista para a varanda"
+        }
       ]
     },
     {
-      "title": "Conforto em cada detalhe",
-      "caption": "Roupeiros em madeira clara, copas privativas e casas de banho revestidas a mármore e travertino.",
+      "title": "Espaços comuns",
+      "caption": "Hall de entrada e kitchenette.",
       "reverse": false,
       "images": [
-        { "image": "images/room-classic-1.jpg", "alt": "Quarto clássico com nicho de livros e televisão" },
-        { "image": "images/closet-detail.jpg", "alt": "Roupeiro em madeira clara com valet de madeira" },
-        { "image": "images/kitchen-1.jpg", "alt": "Copa privativa em madeira de nogueira" }
+        {
+          "image": "/images/closet-detail.jpg",
+          "alt": "O clássico e o contemporâneo."
+        },
+        {
+          "image": "/images/kitchen-1.jpg",
+          "alt": "Kitchnette de apoio a refeições. Não permite cozinhar."
+        },
+        {
+          "image": "/images/hallway-detail.jpg",
+          "alt": "Hall de entrada com elementos tradicionais"
+        }
       ]
     }
   ]
