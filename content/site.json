@@ -6,20 +6,7 @@
     "linkText": "casadapenha.pt",
     "linkUrl": "https://casadapenha.pt"
   },
-  "bathStrip": [
-    {
-      "image": "/images/closet-detail.jpg",
-      "alt": "Espaço de trabalho nos quartos"
-    },
-    {
-      "image": "/images/garden-wide.jpg",
-      "alt": "Repouso com charme no Estoril"
-    },
-    {
-      "image": "/images/room-bamboo-1.jpg",
-      "alt": "Área de apoio a pequeno almoço."
-    }
-  ],
+  "bathStrip": [],
   "intro": {
     "eyebrow": "A CASA",
     "title": "Uma casa com identidade,\nno centro do Estoril",
