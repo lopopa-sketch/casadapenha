@@ -6,20 +6,7 @@
     "linkText": "casadapenha.pt",
     "linkUrl": "https://casadapenha.pt"
   },
-  "bathStrip": [
-    {
-      "image": "/images/closet-detail.jpg",
-      "alt": "Espaço de trabalho nos quartos"
-    },
-    {
-      "image": "/images/garden-wide.jpg",
-      "alt": "Repouso com charme no Estoril"
-    },
-    {
-      "image": "/images/room-bamboo-1.jpg",
-      "alt": "Área de apoio a pequeno almoço."
-    }
-  ],
+  "bathStrip": [],
   "intro": {
     "eyebrow": "A CASA",
     "title": "Uma casa com identidade,\nno centro do Estoril",
@@ -40,6 +27,10 @@
     "text": "Relva, pinheiros, oleandros e um deck de madeira para refeições ao ar livre — o jardim da Casa da Penha é um convite a abrandar, entre o verde e a luz do Estoril.",
     "bgImage": "images/garden-wide.jpg",
     "gallery": [
+      {
+        "image": "/images/casa-da-penha-31-.jpg",
+        "alt": "Espaço exterior para pequenas refeições"
+      },
       {
         "image": "/images/a_bright_sunny_outdoor_backyard_scene_with_a_clea_1.jpg",
         "alt": "Espreguiçadeiras no jardim, à sombra das árvores"
