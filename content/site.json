@@ -41,16 +41,16 @@
     "bgImage": "images/garden-wide.jpg",
     "gallery": [
       {
+        "image": "/images/casa-da-penha-31-.jpg",
+        "alt": "Espaço exterior para pequenas refeições"
+      },
+      {
         "image": "/images/a_bright_sunny_outdoor_backyard_scene_with_a_clea_1.jpg",
         "alt": "Espreguiçadeiras no jardim, à sombra das árvores"
       },
       {
         "image": "/images/hero.jpg",
         "alt": "Caminho de calçada junto à fachada da casa"
-      },
-      {
-        "image": "/images/casa-da-penha-31-.jpg",
-        "alt": "Espaço exterior para pequenas refeições"
       }
     ]
   },
