@@ -54,6 +54,14 @@
         {
           "image": "/images/hallway-detail.jpg",
           "alt": "Hall de entrada com elementos tradicionais"
+        },
+        {
+          "image": "/images/casa-da-penha-19-.jpg",
+          "alt": "Kitchenette"
+        },
+        {
+          "image": "/images/room-coral-1.jpg",
+          "alt": "Hall de entrada"
         }
       ]
     }
