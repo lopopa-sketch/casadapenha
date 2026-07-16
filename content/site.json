@@ -82,13 +82,13 @@
       },
       {
         "name": "Clube de Ténis do Estoril",
-        "dist": "1 km · a pé",
-        "highlight": true
+        "dist": "1 km",
+        "highlight": false
       },
       {
         "name": "Golfe do Estoril",
-        "dist": "2 km · a pé",
-        "highlight": true
+        "dist": "2 km",
+        "highlight": false
       },
       {
         "name": "Centro de Cascais",
