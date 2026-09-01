@@ -293,6 +293,14 @@ img { max-width: 100%; display: block; }
 }
 .footer-loc { color: rgba(247,242,234,0.5); font-size: 0.82rem; letter-spacing: 0.04em; }
 
+.footer-badge {
+  max-width: 1240px; margin: 24px auto 0; padding-top: 24px;
+  border-top: 1px solid rgba(247,242,234,0.12);
+  display: flex; justify-content: center;
+}
+.footer-badge img { width: 200px; max-width: 100%; height: auto; opacity: 0.9; transition: opacity .2s var(--ease); }
+.footer-badge a:hover img { opacity: 1; }
+
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
   .main-nav { display: none; }
