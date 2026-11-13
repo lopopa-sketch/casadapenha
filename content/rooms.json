@@ -16,6 +16,10 @@
         {
           "image": "/images/bathroom-suite-1.jpg",
           "alt": "Quarto Coral, nicho com livros"
+        },
+        {
+          "image": "images/coral-banho-travertino.jpg",
+          "alt": "Quarto Coral, duche em travertino com amenities Nuxe"
         }
       ]
     },
@@ -35,6 +39,10 @@
         {
           "image": "images/room-bamboo-3.jpg",
           "alt": "Quarto Bamboo, vista para a varanda"
+        },
+        {
+          "image": "images/bamboo-banho-marmore.jpg",
+          "alt": "Quarto Bamboo, duche em mármore com amenities Nuxe"
         }
       ]
     },

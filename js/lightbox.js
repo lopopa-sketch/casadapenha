@@ -1,5 +1,5 @@
 (function () {
-  var overlay, imgEl, counterEl, prevBtn, nextBtn;
+  var overlay, imgEl, counterEl, prevBtn, nextBtn, thumbsEl;
   var currentGroup = [];
   var currentIndex = 0;
 
@@ -14,12 +14,18 @@
       '<figure class="lightbox-frame">' +
         '<img class="lightbox-img" alt="">' +
         '<span class="lightbox-counter"></span>' +
+        '<div class="lightbox-thumbs"></div>' +
       '</figure>' +
       '<button class="lightbox-next" aria-label="Seguinte">&#10095;</button>';
     document.body.appendChild(overlay);
 
     imgEl = overlay.querySelector('.lightbox-img');
     counterEl = overlay.querySelector('.lightbox-counter');
+    thumbsEl = overlay.querySelector('.lightbox-thumbs');
+    thumbsEl.addEventListener('click', function (e) {
+      var t = e.target.closest('[data-i]');
+      if (t) show(parseInt(t.getAttribute('data-i'), 10));
+    });
     prevBtn = overlay.querySelector('.lightbox-prev');
     nextBtn = overlay.querySelector('.lightbox-next');
 
@@ -49,10 +55,24 @@
     prevBtn.style.display = multi ? '' : 'none';
     nextBtn.style.display = multi ? '' : 'none';
     counterEl.style.display = multi ? '' : 'none';
+    thumbsEl.style.display = multi ? '' : 'none';
+    var thumbs = thumbsEl.children;
+    for (var i = 0; i < thumbs.length; i++) {
+      thumbs[i].classList.toggle('active', i === currentIndex);
+    }
+    if (thumbs[currentIndex] && thumbs[currentIndex].scrollIntoView) {
+      thumbs[currentIndex].scrollIntoView({ block: 'nearest', inline: 'center' });
+    }
+  }
+
+  function renderThumbs() {
+    thumbsEl.innerHTML = currentGroup.map(function (it, i) {
+      return '<button type="button" data-i="' + i + '" aria-label="Foto ' + (i + 1) + '"><img src="' + it.src + '" alt=""></button>';
+    }).join('');
   }
 
   function open(group, index) {
-    currentGroup = group;
+    if (currentGroup !== group) { currentGroup = group; renderThumbs(); }
     show(index);
     overlay.classList.add('open');
     document.body.classList.add('lightbox-lock');
@@ -86,6 +106,11 @@
       var group = imgs.map(function (img) {
         return { src: img.currentSrc || img.src, alt: img.alt };
       });
+      var gallery = imgs[0].closest('.room-gallery');
+      if (gallery) {
+        var btn = gallery.parentNode.querySelector('.gallery-open');
+        if (btn) btn.addEventListener('click', function () { open(group, 0); });
+      }
       imgs.forEach(function (img, i) {
         img.classList.add('is-clickable');
         img.addEventListener('click', function () {

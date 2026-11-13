@@ -174,15 +174,22 @@
     if (!container || !Array.isArray(data.rooms)) return;
 
     container.innerHTML = data.rooms.map(function (room) {
-      const images = (room.images || []).map(function (img, i) {
-        return '<img src="' + esc(img.image) + '" alt="' + esc(img.alt) + '" loading="lazy"' + (i === 0 ? ' class="big"' : '') + '>';
+      const list = room.images || [];
+      // Grid shows the first 3 photos; any extras stay hidden but are still part of the modal gallery.
+      const images = list.map(function (img, i) {
+        const cls = (i === 0 ? 'big' : '') + (i >= 3 ? ' gallery-extra' : '');
+        return '<img src="' + esc(img.image) + '" alt="' + esc(img.alt) + '" loading="lazy"' + (cls.trim() ? ' class="' + cls.trim() + '"' : '') + '>';
       }).join('');
+      const galleryBtn = list.length
+        ? '<button type="button" class="gallery-open">Ver todas as fotografias (' + list.length + ')</button>'
+        : '';
 
       return '<div class="room-block' + (room.reverse ? ' reverse' : '') + '">' +
         '<div class="room-gallery">' + images + '</div>' +
         '<div class="room-caption">' +
           '<h3>' + esc(room.title) + '</h3>' +
           '<p>' + esc(room.caption) + '</p>' +
+          galleryBtn +
         '</div>' +
       '</div>';
     }).join('');
