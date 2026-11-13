@@ -1,0 +1,89 @@
+{
+  "rooms": [
+    {
+      "title": "Coral Room",
+      "caption": "Soft terracotta walls and warm evening light — with a walk-in closet, private bathroom and desk.",
+      "reverse": false,
+      "images": [
+        {
+          "image": "images/room-coral-3.jpg",
+          "alt": "Coral Room, double bed and mirror"
+        },
+        {
+          "image": "/images/casa-da-penha-3-.jpg",
+          "alt": "Coral Room, headboard and golden lamps"
+        },
+        {
+          "image": "images/coral-banho-travertino.jpg",
+          "alt": "Coral Room, travertine shower with Nuxe amenities"
+        },
+        {
+          "image": "images/coral-nuxe-detalhe.jpg",
+          "alt": "Coral Room, close-up of the Nuxe products"
+        },
+        {
+          "image": "images/coral-toalha-nuxe.jpg",
+          "alt": "Coral Room, towel with the Casa da Penha logo and Nuxe products"
+        },
+        {
+          "image": "/images/bathroom-suite-1.jpg",
+          "alt": "Coral Room, bookshelf niche"
+        }
+      ]
+    },
+    {
+      "title": "Bamboo Room",
+      "caption": "Sage-green walls and linen curtains, with natural light coming in from the garden — bathroom with a baby-friendly shower. The twin beds can be joined to make a king-size bed. Desk.",
+      "reverse": true,
+      "images": [
+        {
+          "image": "images/room-bamboo-2.jpg",
+          "alt": "Bamboo Room, twin beds with tropical cushions"
+        },
+        {
+          "image": "/images/casa-da-penha-9-.jpg",
+          "alt": "Bamboo Room, entrance with wooden mirror"
+        },
+        {
+          "image": "images/room-bamboo-3.jpg",
+          "alt": "Bamboo Room, view to the balcony"
+        },
+        {
+          "image": "images/bamboo-banho-marmore.jpg",
+          "alt": "Bamboo Room, marble shower with Nuxe amenities"
+        },
+        {
+          "image": "images/bamboo-nuxe-detalhe.jpg",
+          "alt": "Bamboo Room, close-up of the Nuxe products"
+        }
+      ]
+    },
+    {
+      "title": "Common Areas",
+      "caption": "Entrance hall and kitchenette.",
+      "reverse": false,
+      "images": [
+        {
+          "image": "/images/closet-detail.jpg",
+          "alt": "The classic and the contemporary"
+        },
+        {
+          "image": "/images/kitchen-1.jpg",
+          "alt": "Kitchenette for light meals. Cooking is not possible."
+        },
+        {
+          "image": "/images/hallway-detail.jpg",
+          "alt": "Entrance hall with traditional features"
+        },
+        {
+          "image": "/images/casa-da-penha-19-.jpg",
+          "alt": "Kitchenette"
+        },
+        {
+          "image": "/images/room-coral-1.jpg",
+          "alt": "Entrance hall"
+        }
+      ]
+    }
+  ]
+}

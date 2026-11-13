@@ -25,7 +25,7 @@
           '<span class="eyebrow">' + esc(data.hero.eyebrow) + '</span>' +
           '<h1>' + esc(data.hero.title) + '</h1>' +
           '<p class="hero-sub">' + esc(data.hero.subtitle) + '</p>' +
-          '<a href="#casa" class="scroll-cue" aria-label="Descer"><span></span></a>';
+          '<a href="#casa" class="scroll-cue" aria-label="' + CP_T('scrollDown') + '"><span></span></a>';
       }
     }
 
@@ -175,17 +175,17 @@
 
     container.innerHTML = data.rooms.map(function (room) {
       const list = room.images || [];
-      // Grid shows the first 3 photos; any extras stay hidden but are still part of the modal gallery.
+      // Grid shows the first 5 photos; any extras stay hidden but are still part of the modal gallery.
       const images = list.map(function (img, i) {
-        const cls = (i === 0 ? 'big' : '') + (i >= 3 ? ' gallery-extra' : '');
+        const cls = (i === 0 ? 'big' : '') + (i >= 5 ? ' gallery-extra' : '');
         return '<img src="' + esc(img.image) + '" alt="' + esc(img.alt) + '" loading="lazy"' + (cls.trim() ? ' class="' + cls.trim() + '"' : '') + '>';
       }).join('');
       const galleryBtn = list.length
-        ? '<button type="button" class="gallery-open">Ver todas as fotografias (' + list.length + ')</button>'
+        ? '<button type="button" class="gallery-open">' + CP_T('viewAll', list.length) + '</button>'
         : '';
 
       return '<div class="room-block' + (room.reverse ? ' reverse' : '') + '">' +
-        '<div class="room-gallery">' + images + '</div>' +
+        '<div class="room-gallery' + (list.length <= 3 ? ' rg-3' : list.length === 4 ? ' rg-4' : '') + '">' + images + '</div>' +
         '<div class="room-caption">' +
           '<h3>' + esc(room.title) + '</h3>' +
           '<p>' + esc(room.caption) + '</p>' +
@@ -196,8 +196,8 @@
   }
 
   Promise.all([
-    fetch('content/site.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
-    fetch('content/rooms.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+    fetch('content/site' + CP_SUFFIX + '.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+    fetch('content/rooms' + CP_SUFFIX + '.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
   ]).then(function (results) {
     const site = results[0];
     const rooms = results[1];

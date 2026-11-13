@@ -9,14 +9,14 @@
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
     overlay.innerHTML =
-      '<button class="lightbox-close" aria-label="Fechar">&times;</button>' +
-      '<button class="lightbox-prev" aria-label="Anterior">&#10094;</button>' +
+      '<button class="lightbox-close" aria-label="' + CP_T('close') + '">&times;</button>' +
+      '<button class="lightbox-prev" aria-label="' + CP_T('prev') + '">&#10094;</button>' +
       '<figure class="lightbox-frame">' +
         '<img class="lightbox-img" alt="">' +
         '<span class="lightbox-counter"></span>' +
         '<div class="lightbox-thumbs"></div>' +
       '</figure>' +
-      '<button class="lightbox-next" aria-label="Seguinte">&#10095;</button>';
+      '<button class="lightbox-next" aria-label="' + CP_T('next') + '">&#10095;</button>';
     document.body.appendChild(overlay);
 
     imgEl = overlay.querySelector('.lightbox-img');
@@ -67,7 +67,7 @@
 
   function renderThumbs() {
     thumbsEl.innerHTML = currentGroup.map(function (it, i) {
-      return '<button type="button" data-i="' + i + '" aria-label="Foto ' + (i + 1) + '"><img src="' + it.src + '" alt=""></button>';
+      return '<button type="button" data-i="' + i + '" aria-label="' + CP_T('photo', i + 1) + '"><img src="' + it.src + '" alt=""></button>';
     }).join('');
   }
 

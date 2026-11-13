@@ -14,12 +14,20 @@
           "alt": "Quarto Coral, cabeceira e candeeiros dourados"
         },
         {
-          "image": "/images/bathroom-suite-1.jpg",
-          "alt": "Quarto Coral, nicho com livros"
-        },
-        {
           "image": "images/coral-banho-travertino.jpg",
           "alt": "Quarto Coral, duche em travertino com amenities Nuxe"
+        },
+        {
+          "image": "images/coral-nuxe-detalhe.jpg",
+          "alt": "Quarto Coral, close-up dos produtos Nuxe"
+        },
+        {
+          "image": "images/coral-toalha-nuxe.jpg",
+          "alt": "Quarto Coral, toalha com o logótipo Casa da Penha e produtos Nuxe"
+        },
+        {
+          "image": "/images/bathroom-suite-1.jpg",
+          "alt": "Quarto Coral, nicho com livros"
         }
       ]
     },
@@ -43,6 +51,10 @@
         {
           "image": "images/bamboo-banho-marmore.jpg",
           "alt": "Quarto Bamboo, duche em mármore com amenities Nuxe"
+        },
+        {
+          "image": "images/bamboo-nuxe-detalhe.jpg",
+          "alt": "Quarto Bamboo, close-up dos produtos Nuxe"
         }
       ]
     },

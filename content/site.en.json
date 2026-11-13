@@ -1,0 +1,189 @@
+{
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Live Estoril at Casa da Penha",
+    "text": "For availability and bookings, please get in touch.",
+    "linkText": "Contact us",
+    "linkUrl": "mailto:casadapenha800@gmail.com"
+  },
+  "bathStrip": [],
+  "intro": {
+    "eyebrow": "THE HOUSE",
+    "title": "A house with character,\nin the heart of Estoril",
+    "paragraphs": [
+      "Casa da Penha is a traditional Portuguese house in the centre of Estoril, designed to welcome guests in a warm, carefully kept and authentic setting. We have worked to preserve the character of the house, celebrating its traditional features, its welcoming décor and its connection to the local area.",
+      "Our idea is to offer a stay with a Portuguese identity — comfortable and discreet, equally suited to leisure breaks and to longer stays."
+    ],
+    "image": "images/intro.jpg"
+  },
+  "roomsIntro": {
+    "eyebrow": "ROOMS & SPACES",
+    "title": "Every room, its own atmosphere",
+    "lede": "Terracotta, bamboo green and whitewashed white — every space in the house was designed with the same care and the same serene palette."
+  },
+  "garden": {
+    "eyebrow": "GARDEN",
+    "title": "A garden made for living outdoors",
+    "text": "Lawn, pine trees, oleanders and a wooden deck for al fresco meals — the garden at Casa da Penha invites you to slow down, between the greenery and the light of Estoril.",
+    "bgImage": "images/garden-wide.jpg",
+    "gallery": [
+      {
+        "image": "/images/casa-da-penha-31-.jpg",
+        "alt": "Outdoor area for light meals"
+      },
+      {
+        "image": "/images/a_bright_sunny_outdoor_backyard_scene_with_a_clea_1.jpg",
+        "alt": "Sun loungers in the garden, in the shade of the trees"
+      },
+      {
+        "image": "/images/hero.jpg",
+        "alt": "Cobbled path along the façade of the house"
+      }
+    ]
+  },
+  "location": {
+    "eyebrow": "LOCATION",
+    "title": "Estoril: history, elegance and seaside living",
+    "paragraphs": [
+      "Estoril is one of the most iconic places on the Portuguese Riviera. Its reputation as a cosmopolitan destination grew in the early 20th century with the development of the Costa do Sol, Casino Estoril, the grand hotels and its closeness to the sea — a sophisticated, discreet atmosphere that remains part of the region's identity today.",
+      "Staying in the centre of Estoril means being surrounded by this historic setting, with easy access to culture, leisure, sport and the sea. The coastal train line offers a direct connection to Lisbon, with no need for a car.",
+      "The area is also known for its strong sporting tradition: golf courses, tennis clubs, Cascais Marina and the Estoril Circuit make it especially appealing for anyone who values sport and leisure."
+    ],
+    "points": [
+      {
+        "name": "Casino Estoril and Gardens",
+        "dist": "400 m",
+        "highlight": false
+      },
+      {
+        "name": "Estoril Congress Centre",
+        "dist": "500 m",
+        "highlight": false
+      },
+      {
+        "name": "Estoril Train Station",
+        "dist": "650 m",
+        "highlight": false
+      },
+      {
+        "name": "Tamariz Beach",
+        "dist": "750 m",
+        "highlight": false
+      },
+      {
+        "name": "Estoril–Cascais seaside promenade",
+        "dist": "750 m",
+        "highlight": false
+      },
+      {
+        "name": "Restaurants, cafés and local shops",
+        "dist": "300–800 m",
+        "highlight": false
+      },
+      {
+        "name": "Estoril Tennis Club",
+        "dist": "1 km",
+        "highlight": false
+      },
+      {
+        "name": "Estoril Golf",
+        "dist": "2 km",
+        "highlight": false
+      },
+      {
+        "name": "Cascais centre",
+        "dist": "3 km",
+        "highlight": false
+      },
+      {
+        "name": "Cascais Marina",
+        "dist": "4 km",
+        "highlight": false
+      },
+      {
+        "name": "Estoril Circuit",
+        "dist": "7 km",
+        "highlight": false
+      }
+    ]
+  },
+  "amenities": {
+    "eyebrow": "AMENITIES",
+    "title": "Everything you need, down to the detail",
+    "lede": "Every room and every space in the house is equipped with your comfort and convenience in mind.",
+    "categories": [
+      {
+        "title": "Rooms",
+        "items": [
+          "Coral Room – queen-size bed",
+          "Bamboo Room – 2 single beds or king-size option",
+          "Bed linen",
+          "Curtains and blinds",
+          "Air conditioning",
+          "Desk for working",
+          "Fast, reliable Wi-Fi",
+          "Smart TV",
+          "Digital safe",
+          "Electronic lock / keyless entry",
+          "Coral Room with walk-in closet",
+          "Bamboo Room with wardrobe",
+          "Beach towels – 2 per person (1 beach, 1 pool)",
+          "Cleaning and change of bed linen, bathroom towels and pool towels for longer stays only, mid-stay"
+        ],
+        "footnote": ""
+      },
+      {
+        "title": "Bathroom",
+        "items": [
+          "Private bathroom",
+          "Towels",
+          "Bathrobes",
+          "Hair dryer",
+          "Spacious shower",
+          "Single-use amenities provided at check-in, not replenished: hygiene kit; disposable slippers, shampoo, conditioner and shower gel"
+        ],
+        "footnote": ""
+      },
+      {
+        "title": "Equipped kitchenette",
+        "items": [
+          "Blender",
+          "Citrus juicer",
+          "Coffee machine",
+          "Fridge with freezer",
+          "Kettle",
+          "Toaster",
+          "Crockery",
+          "Cutlery and utensils",
+          "Central vacuum",
+          "Vertical steam iron",
+          "Microwave"
+        ],
+        "footnote": "Cooking is not possible — the kitchenette is for quick, ready-prepared meals."
+      }
+    ]
+  },
+  "strip": [
+    {
+      "image": "/images/a_bright_sunny_outdoor_backyard_scene_with_a_clea_1.jpg",
+      "alt": "Terracotta façade of Casa da Penha"
+    },
+    {
+      "image": "images/living-hall.jpg",
+      "alt": "Arched hallway and wooden kitchenette"
+    },
+    {
+      "image": "/images/casa-da-penha-15-.jpg",
+      "alt": "Terracotta travertine bathroom"
+    }
+  ],
+  "hero": {
+    "eyebrow": "ESTORIL · PORTUGAL",
+    "title": "Casa da Penha",
+    "subtitle": "A Portuguese house in the heart of Estoril",
+    "image": "images/hero.jpg"
+  },
+  "footer": {
+    "location": "Estoril · Cascais Line · Portugal"
+  }
+}

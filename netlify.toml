@@ -6,3 +6,9 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
+
+# Short URL for the English version
+[[redirects]]
+  from = "/en"
+  to = "/index.en.html"
+  status = 200
